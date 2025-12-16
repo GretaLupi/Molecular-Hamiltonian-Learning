@@ -116,6 +116,7 @@ def generate_spectrum(sample_id, num_freq=251, num_eps=80):
         hamiltonian, fc = hp.calculate_hamiltonian(
             tij_original=tij,
             epsilon=eps_value,
+            mu=0.0,
             U=10 * 4.0,          # Intra-orbital Coulomb (scaled)
             B=0.0,               # Magnetic field
             lambda_soc=lambda_soc * 10,  # Spin-orbit (scaled)
