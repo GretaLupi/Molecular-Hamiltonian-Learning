@@ -142,7 +142,7 @@ def main():
     print("Applying PCA for dimensionality reduction...")
 
     pca = PCA(n_components=config.N_COMPONENTS)
-    X_fit = pca.fit(X_train)                    # fit PCA on clean data
+    pca.fit(X_train)                    # fit PCA on clean data
     X_train_pca = pca.transform(X_train_noisy)
     X_val_pca = pca.transform(X_val)
     X_test_pca = pca.transform(X_test)
