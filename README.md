@@ -1,6 +1,7 @@
 # Molecular Hamiltonian Learning from STM-IETS
 
-Machine learning to invert STM spectra into molecular Hamiltonians. Code for "Molecular Hamiltonian Learning for STM-IETS".
+Machine learning to invert STM spectra into molecular Hamiltonians. Code for "Molecular Hamiltonian learning from setpoint-dependent scanning tunneling
+spectroscopy" (G.Lupi et al., 2025).
 
 ## Features
 - Synthetic STM-IETS spectrum generation
