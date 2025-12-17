@@ -26,3 +26,4 @@ spectroscopy" (G.Lupi et al., 2025).
 - **`model_emin`** - Pretrained model for minimum epsilon
 - **`model_soc`** - Pretrained model for spin-orbit coupling 
 - **`model_tau`** - Pretrained model for ferroelectric field
+- **`pca_model.pkl`** - Pickle file of the PCA applied to the input data to train the models
